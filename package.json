@@ -1,0 +1,29 @@
+{
+  "name": "keno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../test/demo.js",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.0.1",
+    "fs": "0.0.1-security",
+    "json-loader": "^0.5.7",
+    "node-xlsx": "^0.15.0",
+    "read-excel-file": "^4.0.6",
+    "xlsx": "^0.16.2"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -- --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
