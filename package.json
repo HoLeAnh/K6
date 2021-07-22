@@ -10,7 +10,7 @@
     "json-loader": "^0.5.7",
     "node-xlsx": "^0.15.0",
     "read-excel-file": "^4.0.6",
-    "xlsx": "^0.16.2"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "bundle": "webpack",
